@@ -1,10 +1,24 @@
-@import 'variables';
+@import "variables";
 
-form {
-    margin-block-end: 0;
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+
+$theme-colors: (
+  "primary": $blue-200,
+  "danger": $red-500,
+  "gray": $gray-900,
+  "gray-800": $gray-800,
+  "teal": $teal-900,
+  "cyan": $cyan-900,
+);
+
+img {
+  height: 15rem;
 }
 
-header,
-footer {
-    color: $red-color;
+.blogs-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";

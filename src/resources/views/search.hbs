@@ -1,23 +1,17 @@
-<div class="mt-5">
-  <form method="POST" action="">
-    <div class="form-group">
-      <label for="search-input">Blog search:</label>
-      <input
-        type="text"
-        name="q"
-        class="form-control"
-        id="search-input"
-        placeholder="Enter blog..."
-      />
+<div class="container row">
+  {{#each blogs}}
+    <div class="col-sm-4">
+      <div class="card mt-4">
+        <a href="/blogs/{{this.slug}}">
+          <img class="card-img-top" src="{{this.image}}" alt="{{this.name}}" />
+        </a>
+        <div class="card-body">
+          <a href="/blogs/{{this.slug}}">
+            <h5 class="card-title">{{this.name}}</h5>
+          </a>
+          <p class="card-text">{{this.description}}</p>
+        </div>
+      </div>
     </div>
-    <div class="form-group mt-1">
-      <label for="gender-input">Gender</label>
-      <select name="gender" id="gender-input">
-        <option value="">--Select Your gender--</option>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-      </select>
-    </div>
-    <button type="submit" class="btn btn-primary">Find</button>
-  </form>
+  {{/each}}
 </div>

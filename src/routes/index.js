@@ -1,9 +1,11 @@
-import newsRouter from './news';
-import siteRouter from './site';
+import meRouter from "./me";
+import blogsRouter from "./blogs";
+import siteRouter from "./site";
 
 function route(app) {
-    app.use('/news', newsRouter);
-    app.use('/', siteRouter);
+  app.use("/blogs", blogsRouter);
+  app.use("/me", meRouter);
+  app.use("/", siteRouter);
 }
 
 export default route;

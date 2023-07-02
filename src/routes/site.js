@@ -1,9 +1,9 @@
-import { Router } from 'express';
-import SiteController from '../app/controllers/SiteController';
+import { Router } from "express";
+import SiteController from "../app/controllers/SiteController";
 const siteController = new SiteController();
 const siteRouter = Router();
 
-siteRouter.use('/search', siteController.search);
-siteRouter.use('/', siteController.home);
+siteRouter.get("/search", siteController.search);
+siteRouter.get("/", siteController.home);
 
 export default siteRouter;
