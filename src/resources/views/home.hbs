@@ -13,5 +13,17 @@
         </div>
       </div>
     </div>
+  {{else}}
+    <div class="vw-100 notFound d-flex flex-column align-items-center mt-4">
+      <img
+        class="rounded-1"
+        src="https://th.bing.com/th/id/OIP.XiTqBXW9GjyQUXzrDzumRwHaHa?pid=ImgDet&rs=1"
+        alt=""
+      />
+      <h3 class="text-orange">
+        You don't have a blog yet!
+      </h3>
+      <a class="btn btn-orange" href="/blogs/create">Create Now!</a>
+    </div>
   {{/each}}
 </div>

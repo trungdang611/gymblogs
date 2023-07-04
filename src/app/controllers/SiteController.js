@@ -21,6 +21,16 @@ class SiteController {
       })
       .catch(next);
   }
+  // [POST]: /contact
+  contact(req, res, next) {
+    Blog.find({})
+      .then((Blogs) => {
+        res.render("CONTACT", {
+          Blogs: obj.mutipleMongooseToObject(Blogs),
+        });
+      })
+      .catch(next);
+  }
 }
 
 export default SiteController;
