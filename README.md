@@ -37,4 +37,4 @@ We welcome contributions from the community. To contribute:
 This project is distributed under the [license name]. See the [LICENSE](LICENSE) file for details.
 ## Contact
 
-If you have questions or feedback, please contact us at [trungdangdev06@gmail.com] or on [my github](#https://github.com/trungdang611).
+If you have questions or feedback, please contact us at [trungdangdev06@gmail.com] or on [my github](https://github.com/trungdang611).
