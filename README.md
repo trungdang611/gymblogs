@@ -14,9 +14,6 @@ This website helps people create workout and nutrition plans for their gym pract
 
 Provide detailed instructions on how to install, configure, and use your project. You can use lists or tables to make the instructions easy to follow.
 
-```markdown
-## Usage
-
 1. Step 1
 2. Step 2
 3. ...
