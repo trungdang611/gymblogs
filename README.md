@@ -1,6 +1,6 @@
-# Project Name
+# Gym blog
 
-A brief description of your project and its objectives.
+This website helps people create workout and nutrition plans for their gym practice.
 
 ## Table of Contents
 
